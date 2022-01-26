@@ -1,0 +1,19 @@
+@import '~vuetify/src/styles/settings/_variables';
+
+//'xs': 0,
+//'sm': 600px,
+//'md': 960px,
+//'lg': 1280px - 16px,
+//'xl': 1920px - 16px
+
+@mixin tablet {
+    @media #{map-get($display-breakpoints, 'sm-and-up')} { @content; }
+}
+
+@mixin desktop {
+    @media #{map-get($display-breakpoints, 'lg-and-up')} { @content; }
+}
+
+@mixin large-desktop {
+    @media #{map-get($display-breakpoints, 'xl-only')} { @content; }
+}

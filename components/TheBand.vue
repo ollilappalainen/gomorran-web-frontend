@@ -1,0 +1,98 @@
+<template>
+    <div id="theBand" ref="theBand" class="the-band section">
+        <div class="head">
+            <img class="logo" src="gomorran-logo.png" alt="Gomorran logo" />
+        </div>
+        <div class="cards">
+            <div v-for="card in cards" :key="card.name" class="card">
+                <div class="img">
+                    <img :src="card.img" :alt="card.alt" />
+                </div>
+                <h1>{{ card.name }}</h1>
+                <h2>{{ card.instrument }}</h2>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+    name: 'TheBand',
+    data() {
+        return {
+            cards: [
+                {
+                    img: 'portrait-olli.jpg',
+                    alt: 'Portrait of Olli Lappalainen',
+                    name: 'Olli Lappalainen',
+                    instrument: 'drums',
+                },
+                {
+                    img: 'portrait-perttu.jpg',
+                    alt: 'Portrait of Perttu Laamanen',
+                    name: 'Perttu Laamanen',
+                    instrument: 'vocals & guitar',
+                },
+                {
+                    img: 'portrait-joonatan.jpg',
+                    alt: 'Portrait of Joonatan Wiitasalo',
+                    name: 'Joonatan Wiitasalo',
+                    instrument: 'lead guitar',
+                },
+                {
+                    img: 'portrait-panu.jpg',
+                    alt: 'Portrait of Panu Nykänen',
+                    name: 'Panu Nykänen',
+                    instrument: 'bass',
+                },
+            ]
+        };
+    },
+}
+</script>
+
+<style lang="scss" scoped>
+.the-band {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .logo {
+        max-width: 512px;
+        margin-bottom: 8rem;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 1rem;
+
+        h1 {
+            color: var(--white);
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            color: var(--gold);
+            font-family: 'Old English Text MT';
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .img {
+            margin-bottom: 1rem;
+        }
+    }
+}
+</style>
