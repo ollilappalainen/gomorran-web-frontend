@@ -10,6 +10,10 @@
     @media #{map-get($display-breakpoints, 'sm-and-up')} { @content; }
 }
 
+@mixin large-tablet {
+    @media #{map-get($display-breakpoints, 'md-and-up')} { @content; }
+}
+
 @mixin desktop {
     @media #{map-get($display-breakpoints, 'lg-and-up')} { @content; }
 }

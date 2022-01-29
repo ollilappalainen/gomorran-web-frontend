@@ -44,12 +44,22 @@ export default {
 
 <style lang="scss" scoped>
 .header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 6rem 0 5rem;
-    height: 80px;
+    display: none;
+
+    @include large-tablet {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        padding: 0 6rem 0 5rem;
+        height: 135px;
+    }
+
+    @include desktop {
+        height: 80px;
+        flex-direction: row;
+    }
 }
 
 .navigation {
@@ -57,10 +67,10 @@ export default {
         background-color: var(--black);
         border: 0;
         color: var(--white);
-        padding: 1rem;
+        padding: 1rem 0.5rem;
         margin: 0 1rem;
         font-family: 'Old English Text MT';
-        font-size: 2rem;
+        font-size: 1.5rem;
         height: auto;
         border: 1px solid var(--black);
         transform: scale(1);
@@ -70,9 +80,14 @@ export default {
             color: var(--gold);
             transform: scale(1.2, 1.2);
         }
+
+        @include large-desktop {
+            padding: 1rem 2rem;
+            font-size: 2rem;
+        }
     }
 
-    .btn.highlight {
+    .highlight {
         color: var(--gold);
         transform: scale(1.1, 1.1);
     }

@@ -15,7 +15,7 @@ const scrollreportMixin = {
     },
     watch: {
         verticalOffsetTop(val) {
-            if (val > (this.offsetTop - 400) && val < this.offsetTop + (window.innerHeight / 2)) {
+            if (val > (this.offsetTop - 100) && val < this.offsetTop + this.offsetHeight - 100) {
                 this.setVisibleSection(this.$options.name);
             }
         },

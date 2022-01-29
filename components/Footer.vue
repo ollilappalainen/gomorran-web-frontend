@@ -22,6 +22,7 @@ export default {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    text-align: center;
 
     h1 {
         color: var(--white);

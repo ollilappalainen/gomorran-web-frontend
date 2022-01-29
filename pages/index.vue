@@ -1,13 +1,15 @@
 <template>
     <div class="root">
         <header>
-            <Header :active-item="activeMenuItem" @navigate="handleNavigate" />
+            <Header @navigate="handleNavigate" />
+            <MobileHeader @navigate="handleNavigate" />
         </header>
         <div class="scroll-content">
             <vuescroll ref="scrl" :ops="ops" @handle-scroll="handleScroll">
                 <main>
                     <Entrance ref="entrance" />
                     <Music ref="music" />
+                    <Videos />
                     <Story ref="story" />
                     <Merch ref="merch" />
                     <Live ref="live" />
@@ -25,6 +27,7 @@
 import Header from '~/components/Header';
 import Entrance from '~/components/Entrance';
 import Music from '~/components/Music';
+import Videos from '~/components/Videos';
 import Story from '~/components/Story';
 import Merch from '~/components/Merch';
 import Live from '~/components/Live';
@@ -39,6 +42,7 @@ export default {
         Header,
         Entrance,
         Music,
+        Videos,
         Story,
         Merch,
         Live,

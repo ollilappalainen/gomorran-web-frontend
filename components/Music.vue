@@ -1,7 +1,7 @@
 <template>
     <div id="music" ref="music" class="music section">
         <div class="content">
-            <div class="content-half">
+            <div class="content-half left">
                 <img class="image" src="eftda-cover.jpg" alt="Excerpts from the Dark Age EP cover image" />
             </div>
             <div class="content-half">
@@ -74,19 +74,35 @@ export default {
 <style lang="scss" scoped>
 .music {
     width: 100%;
-    margin-top: -4rem;
+    margin-top: -2rem;
+    padding-top: 8rem;
     background: rgb(1,1,1);
     background: radial-gradient(circle, rgba(35,37,38,1) 0%, rgba(1,1,1,1) 90%);
-    padding: 4rem;
+
+    @include tablet {
+        margin-top: -4rem;
+    }
 }
 
 .content {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include large-tablet {
+        flex-direction: row;
+    }
 
     .content-half {
-        width: 50%;
-        padding: 4rem;
         position: relative;
+
+        @include large-tablet {
+            width: 50%;
+        }
+
+        @include desktop {
+            padding: 0 1rem;
+        }
     }
 
     .image {
@@ -95,35 +111,59 @@ export default {
     }
 
     .music-links {
-        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+        margin-top: 2rem;
+
+        @include large-tablet {
+            margin-top: 0;
+        }
     }
 
     .music-link {
         width: 90%;
+        padding: 1rem;
         transition: width .5s;
 
         &:hover {
             width: 100%;
             box-shadow: 0 5px 15px rgba(0,0,0,0.3);
         }
+
+        @include tablet {
+            width: 45%;
+            padding: 2rem 4rem;
+
+            &:hover {
+                width: 50%;
+            }
+        }
+
+        @include large-tablet {
+            width: 90%;
+
+            &:hover {
+                width: 100%;
+            }
+        }
     }
 
     .music-link--small {
-        width: 45%;
+        @include tablet {
+            width: 45%;
+            padding: 1rem 2rem;
 
-        &:hover {
-            width: 50%;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            &:hover {
+                width: 50%;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            }
         }
     }
 
     .music-logo {
         width: 100%;
-        padding: 2rem 4rem;
     }
 }
 </style>

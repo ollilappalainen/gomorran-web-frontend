@@ -24,7 +24,10 @@ export default {
 <style lang="scss" scoped>
 .live {
     width: 100%;
-    padding: 8rem;
+
+    h1 {
+        margin-bottom: 2rem;
+    }
 }
 
 .booking {
@@ -32,8 +35,12 @@ export default {
     text-align: center;
     margin: 4rem 0;
 
-    h1, h2 {
-        margin-bottom: 1rem;
+    h1 {
+        margin-bottom: 2rem;
+        color: var(--white);
+    }
+
+    h2 {
         color: var(--white);
     }
 

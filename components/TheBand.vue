@@ -60,16 +60,17 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 8rem;
 
     .logo {
         max-width: 512px;
         margin-bottom: 8rem;
+        width: 100%;
     }
 
     .cards {
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
     }
 
     .card {
@@ -77,15 +78,19 @@ export default {
         flex-direction: column;
         align-items: center;
         padding: 0 1rem;
+        flex-basis: 100%;
+        margin-bottom: 4rem;
 
         h1 {
             color: var(--white);
             margin-bottom: 1rem;
+            text-align: center;
         }
 
         h2 {
             color: var(--gold);
             font-family: 'Old English Text MT';
+            text-align: center;
         }
 
         img {
@@ -96,6 +101,37 @@ export default {
 
         .img {
             margin-bottom: 1rem;
+        }
+    }
+
+    @include tablet {
+        .card {
+            flex-basis: 50%;
+            margin-bottom: 4rem;
+        }
+
+        h1 {
+            font-size: 1.75rem;
+        }
+
+        h2 {
+
+        }
+    }
+
+    @include large-tablet {
+        .card {
+            flex-basis: 25%;
+        }
+
+        h1 {
+            font-size: 1.75rem;
+        }
+    }
+
+    @include desktop {
+        h1 {
+            font-size: 2rem;
         }
     }
 }
