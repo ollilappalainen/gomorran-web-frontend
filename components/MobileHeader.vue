@@ -2,14 +2,9 @@
     <div class="mobile-menu">
         <div class="mobile-menu-content">
             <button class="mobile-menu-toggle" @click="drawer = !drawer">
-                <v-icon
-                    aria-label="toggle-mobile-menu"
-                    role="img"
-                    aria-hidden="false"
-                    large
-                >
-                    {{ icons.mdiMenu }}
-                </v-icon>
+                <div class="mobile-menu-icon">
+                    <img src="icons/menu.svg" />
+                </div>
                 <span>{{ currentPage }}</span>
             </button>
             <Socials />
@@ -72,7 +67,6 @@
 
 <script>
 import { mapGetters } from 'vuex';
-import { mdiMenu } from '@mdi/js';
 import Socials from './Socials';
 
 export default {
@@ -82,9 +76,6 @@ export default {
     },
     data() {
         return {
-            icons: {
-                mdiMenu,
-            },
             drawer: false,
             group: null,
         };
@@ -138,6 +129,18 @@ export default {
 ::v-deep .v-icon {
     color: var(--gold);
     margin-right: 1rem;
+}
+
+.mobile-menu-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+
+    img {
+        width: 2rem;
+        height: 2rem;
+    }
 }
 
 .mobile-menu-content {
