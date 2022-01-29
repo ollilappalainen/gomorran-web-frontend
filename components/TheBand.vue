@@ -16,8 +16,11 @@
 </template>
 
 <script>
+import scrollreportMixin from '~/mixins/scrollreport';
+
 export default {
     name: 'TheBand',
+    mixins: [scrollreportMixin],
     data() {
         return {
             cards: [
@@ -57,6 +60,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 8rem;
 
     .logo {
         max-width: 512px;

@@ -57,6 +57,12 @@ export default {
 
 .link {
     padding: .75rem;
+    transform: scale(1);
+    transition: transform .5s;
+
+    &:hover {
+        transform: scale(1.2, 1.2);
+    }
 }
 
 img {

@@ -1,20 +1,20 @@
 <template>
-    <div id="music" ref="music" class="streaming section">
+    <div id="music" ref="music" class="music section">
         <div class="content">
             <div class="content-half">
                 <img class="image" src="eftda-cover.jpg" alt="Excerpts from the Dark Age EP cover image" />
             </div>
             <div class="content-half">
-                <div class="streaming-links">
+                <div class="music-links">
                     <a
-                        v-for="link in streamingLinks"
+                        v-for="link in musicLinks"
                         :key="link.alt"
-                        class="streaming-link"
-                        :class="link.small ? 'streaming-link--small' : ''"
+                        class="music-link"
+                        :class="link.small ? 'music-link--small' : ''"
                         :href="link.src"
                         target="_blank"
                     >
-                        <img class="streaming-logo" :src="link.img" :alt="link.alt" />
+                        <img class="music-logo" :src="link.img" :alt="link.alt" />
                     </a>
                 </div>
             </div>
@@ -23,11 +23,14 @@
 </template>
 
 <script>
+import scrollreportMixin from '~/mixins/scrollreport';
+
 export default {
-    name: 'streaming',
+    name: 'Music',
+    mixins: [scrollreportMixin],
     data() {
         return {
-            streamingLinks: [
+            musicLinks: [
                 {
                     img: 'icons/spotify-logo.png',
                     alt: 'Spotify logo',
@@ -69,11 +72,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.streaming {
+.music {
     width: 100%;
     margin-top: -4rem;
     background: rgb(1,1,1);
     background: radial-gradient(circle, rgba(35,37,38,1) 0%, rgba(1,1,1,1) 90%);
+    padding: 4rem;
 }
 
 .content {
@@ -90,7 +94,7 @@ export default {
         box-shadow: 0px 0px 36px 4px #000;
     }
 
-    .streaming-links {
+    .music-links {
         width: 100%;
         display: flex;
         align-items: center;
@@ -98,7 +102,7 @@ export default {
         flex-wrap: wrap;
     }
 
-    .streaming-link {
+    .music-link {
         width: 90%;
         transition: width .5s;
 
@@ -108,7 +112,7 @@ export default {
         }
     }
 
-    .streaming-link--small {
+    .music-link--small {
         width: 45%;
 
         &:hover {
@@ -117,7 +121,7 @@ export default {
         }
     }
 
-    .streaming-logo {
+    .music-logo {
         width: 100%;
         padding: 2rem 4rem;
     }

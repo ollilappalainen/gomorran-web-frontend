@@ -5,6 +5,15 @@
     </div>
 </template>
 
+<script>
+import scrollreportMixin from '~/mixins/scrollreport';
+
+export default {
+    name: 'Entrance',
+    mixins: [scrollreportMixin],
+};
+</script>
+
 <style lang="scss" scoped>
 .hero {
     display: flex;

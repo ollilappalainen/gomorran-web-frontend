@@ -21,17 +21,20 @@
 </template>
 
 <script>
+import scrollreportMixin from '~/mixins/scrollreport';
+
 export default {
     name: 'Merch',
+    mixins: [scrollreportMixin],
 };
 </script>
 
 <style lang="scss" scoped>
 .merch {
     width: 100%;
-    margin-top: -4rem;
     background: rgb(1,1,1);
     background: radial-gradient(circle, rgba(35,37,38,1) 0%, rgba(1,1,1,1) 90%);
+    padding: 4rem;
 }
 
 .content {

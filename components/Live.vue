@@ -13,15 +13,18 @@
 </template>
 
 <script>
+import scrollreportMixin from '~/mixins/scrollreport';
+
 export default {
     name: 'Live',
+    mixins: [scrollreportMixin],
 };
 </script>
 
 <style lang="scss" scoped>
 .live {
     width: 100%;
-    padding: 4rem;
+    padding: 8rem;
 }
 
 .booking {

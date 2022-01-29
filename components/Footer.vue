@@ -2,7 +2,7 @@
     <div class="footer section">
         <h1>Follow <span>Gomorran</span> on socials</h1>
         <Socials />
-        <p>© 2022 Olli Lappalainen / Contact gomorranmetal@gmail.com</p>
+        <p>© 2022 Olli Lappalainen / Contact <a class="mail-to" href="mailto:gomorranmetal@gmail.com">gomorranmetal@gmail.com</a></p>
     </div>
 </template>
 
@@ -34,6 +34,11 @@ export default {
 
     p {
         margin-top: 4rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--gold);
     }
 }
 </style>

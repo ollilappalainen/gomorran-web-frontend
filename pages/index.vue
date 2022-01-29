@@ -6,9 +6,9 @@
         <div class="scroll-content">
             <vuescroll ref="scrl" :ops="ops" @handle-scroll="handleScroll">
                 <main>
-                    <Hero ref="entrance" />
-                    <Streaming ref="music" />
-                    <Bio ref="story" />
+                    <Entrance ref="entrance" />
+                    <Music ref="music" />
+                    <Story ref="story" />
                     <Merch ref="merch" />
                     <Live ref="live" />
                     <TheBand ref="theBand" />
@@ -23,22 +23,23 @@
 
 <script>
 import Header from '~/components/Header';
-import Hero from '~/components/Hero';
-import Streaming from '~/components/Streaming';
-import Bio from '~/components/Bio';
+import Entrance from '~/components/Entrance';
+import Music from '~/components/Music';
+import Story from '~/components/Story';
 import Merch from '~/components/Merch';
 import Live from '~/components/Live';
 import TheBand from '~/components/TheBand';
 import Footer from '~/components/Footer';
 import vuescroll from 'vuescroll';
+import { mapMutations } from 'vuex';
 
 export default {
     name: 'IndexPage',
     components: {
         Header,
-        Hero,
-        Streaming,
-        Bio,
+        Entrance,
+        Music,
+        Story,
         Merch,
         Live,
         TheBand,
@@ -61,19 +62,19 @@ export default {
                 }
             },
             activeMenuItem: 'entrance',
+            verticalScrollTop: 0,
         };
     },
     methods: {
+        ...mapMutations({
+            setVerticalOffsetTop: 'verticalOffsetTop',
+        }),
         handleNavigate(e) {
             this.$refs['scrl'].scrollIntoView(`#${e}`, 500);
         },
         handleScroll(vertical) {
-            if (vertical.scrollTop >= (this.$refs.entrance.$el.offsetTop + (this.$refs.entrance.$el.offsetHeight / 2))) {
-                this.activeMenuItem = 'music';
-            } else if (vertical.scrollTop <= (this.$refs.entrance.$el.offsetTop + (this.$refs.entrance.$el.offsetHeight / 2))) {
-                this.activeMenuItem = 'entrance';
-            }
-        }
+            this.setVerticalOffsetTop(vertical.scrollTop);
+        },
     },
 };
 </script>
