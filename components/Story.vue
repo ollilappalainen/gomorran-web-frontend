@@ -2,7 +2,7 @@
     <div id="story" ref="story" class="story section">
         <div class="content">
             <div class="story-text">
-                <h1>The Story...</h1>
+                <h1>The Gomorran Lore</h1>
                 <div class="image-wrapper">
                     <img class="image" src="gomorran-band-photo-2.jpg" alt="Gomorran band photo taken in an autumn forest" />
                 </div>

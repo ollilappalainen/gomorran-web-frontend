@@ -13,6 +13,7 @@
                         :class="link.small ? 'music-link--small' : ''"
                         :href="link.src"
                         target="_blank"
+                        rel="nofollow"
                     >
                         <img class="music-logo" :src="link.img" :alt="link.alt" />
                     </a>
@@ -78,10 +79,6 @@ export default {
     padding-top: 8rem;
     background: rgb(1,1,1);
     background: radial-gradient(circle, rgba(35,37,38,1) 0%, rgba(1,1,1,1) 90%);
-
-    @include tablet {
-        margin-top: -4rem;
-    }
 }
 
 .content {

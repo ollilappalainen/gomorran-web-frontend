@@ -6,6 +6,7 @@
             class="link"
             :href="link.url"
             target="_blank"
+            rel="nofollow"
         >
             <img :src="link.img" :alt="link.alt" />
         </a>

@@ -1,7 +1,7 @@
 <template>
     <div id="live" ref="live" class="live section">
         <h1>Live shows</h1>
-        <a href="https://www.songkick.com/artists/10171591" class="songkick-widget" data-theme="dark" data-other-artists="on" data-track-button="on" data-background-color="transparent" data-locale="en"></a>
+        <a href="https://www.songkick.com/artists/10171591" class="songkick-widget" data-theme="dark" data-other-artists="on" data-track-button="on" data-background-color="transparent" data-locale="en" rel="nofollow"></a>
         <script src="//widget.songkick.com/10171591/widget.js"></script>
 
         <div class="booking">

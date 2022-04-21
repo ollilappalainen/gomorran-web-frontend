@@ -11,6 +11,7 @@
                         class="link"
                         href="https://morbidnorth.com/gomorran/"
                         target="_blank"
+                        rel="nofollow"
                     >
                         <span class="link text">STORE</span>
                     </a>
