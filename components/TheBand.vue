@@ -1,7 +1,7 @@
 <template>
     <div id="theBand" ref="theBand" class="the-band section">
         <div class="head">
-            <img class="logo" src="gomorran-logo.png" alt="Gomorran logo" />
+            <img class="logo" src="gomorran-logo.svg" alt="Gomorran logo" />
         </div>
         <div class="cards">
             <div v-for="card in cards" :key="card.name" class="card">
