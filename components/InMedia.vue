@@ -7,12 +7,12 @@
                     <img class="image" src="gomorran-band-live.jpg" alt="Gomorran band photo taken in an autumn forest" />
                 </div>
                 <div class="media-links">
-                    <a href="https://tuonelamagazine.com/gallery-17-3-2022-gomorran-astral-corpse-orbiter-hard-rock-house-helsinki/" rel="nofollow">Tuonela Magazine 17.3.2022 - GALLERY: Gomorran, Astral Corpse, & Orbiter @ Hard Rock House, Helsinki</a>
-                    <a href="https://tuonelamagazine.com/17-3-2022-gomorran-astral-corpse-orbiter-hard-rock-house-helsinki/" rel="nofollow">Tuonela Magazine 17.3.2022 - Gomorran, Astral Corpse, & Orbiter @ Hard Rock House, Helsinki</a>
-                    <a href="http://www.metal-temple.com/site/catalogues/entry/reviews/cd_3/g_2/gomorran-excerpts.htm" rel="nofollow">Metal Temple 23.2.2022 - Gomorran "Excerpts from the Dark Age" review</a>
-                    <a href="https://metalalliancemag.ch/2022/02/gomorran-excerpts-from-the-dark-age-ep/" rel="nofollow">Metal Alliance 1.2.2022 - Gomorran "Excerpts from the Dark Age" review</a>
-                    <a href="https://bringerofdeathzine.blogspot.com/2021/12/gomarran-interview.html" rel="nofollow">Blackdeathmetalzine 20.12.2021 - Gomorran interview</a>
-                    <a href="https://overtone.site/2021/12/03/review-excerpts-from-the-dark-age-the-start-of-something-great-for-gomorran/" rel="nofollow">Overtone 3.12.2021 - Gomorran "Excerpts from the Dark Age" review</a>
+                    <a href="https://tuonelamagazine.com/gallery-17-3-2022-gomorran-astral-corpse-orbiter-hard-rock-house-helsinki/" rel="nofollow" target="_blank">Tuonela Magazine 17.3.2022 - GALLERY: Gomorran, Astral Corpse, & Orbiter @ Hard Rock House, Helsinki</a>
+                    <a href="https://tuonelamagazine.com/17-3-2022-gomorran-astral-corpse-orbiter-hard-rock-house-helsinki/" rel="nofollow" target="_blank">Tuonela Magazine 17.3.2022 - Gomorran, Astral Corpse, & Orbiter @ Hard Rock House, Helsinki</a>
+                    <a href="http://www.metal-temple.com/site/catalogues/entry/reviews/cd_3/g_2/gomorran-excerpts.htm" rel="nofollow" target="_blank">Metal Temple 23.2.2022 - Gomorran "Excerpts from the Dark Age" review</a>
+                    <a href="https://metalalliancemag.ch/2022/02/gomorran-excerpts-from-the-dark-age-ep/" rel="nofollow" target="_blank">Metal Alliance 1.2.2022 - Gomorran "Excerpts from the Dark Age" review</a>
+                    <a href="https://bringerofdeathzine.blogspot.com/2021/12/gomarran-interview.html" rel="nofollow" target="_blank">Blackdeathmetalzine 20.12.2021 - Gomorran interview</a>
+                    <a href="https://overtone.site/2021/12/03/review-excerpts-from-the-dark-age-the-start-of-something-great-for-gomorran/" rel="nofollow" target="_blank">Overtone 3.12.2021 - Gomorran "Excerpts from the Dark Age" review</a>
                 </div>
             </div>
         </div>
