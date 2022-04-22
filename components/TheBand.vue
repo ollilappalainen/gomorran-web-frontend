@@ -8,8 +8,8 @@
                 <div class="img">
                     <img :src="card.img" :alt="card.alt" />
                 </div>
-                <h1>{{ card.name }}</h1>
-                <h2>{{ card.instrument }}</h2>
+                <h2>{{ card.name }}</h2>
+                <h3>{{ card.instrument }}</h3>
             </div>
         </div>
     </div>
@@ -81,13 +81,13 @@ export default {
         flex-basis: 100%;
         margin-bottom: 4rem;
 
-        h1 {
+        h2 {
             color: var(--white);
             margin-bottom: 1rem;
             text-align: center;
         }
 
-        h2 {
+        h3 {
             color: var(--gold);
             font-family: 'Old English Text MT';
             text-align: center;
@@ -110,11 +110,11 @@ export default {
             margin-bottom: 4rem;
         }
 
-        h1 {
+        h2 {
             font-size: 1.75rem;
         }
 
-        h2 {
+        h3 {
 
         }
     }
@@ -124,13 +124,13 @@ export default {
             flex-basis: 25%;
         }
 
-        h1 {
+        h2 {
             font-size: 1.75rem;
         }
     }
 
     @include desktop {
-        h1 {
+        h2 {
             font-size: 2rem;
         }
     }

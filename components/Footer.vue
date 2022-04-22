@@ -1,6 +1,6 @@
 <template>
     <div class="footer section">
-        <h1>Follow <span>Gomorran</span> on socials</h1>
+        <h2>Follow <span>Gomorran</span> on socials</h2>
         <Socials />
         <p>© 2022 Gomorran Media / Contact <a class="mail-to" href="mailto:gomorranmetal@gmail.com">gomorranmetal@gmail.com</a></p>
     </div>
@@ -24,7 +24,7 @@ export default {
     width: 100%;
     text-align: center;
 
-    h1 {
+    h2 {
         color: var(--white);
         margin-bottom: 2rem;
 
