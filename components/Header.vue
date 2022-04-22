@@ -6,6 +6,7 @@
             <button class="btn" :class="{ 'highlight': visibleSection === 'Story' }" value="story" @click="handleClick">Story</button>
             <button class="btn" :class="{ 'highlight': visibleSection === 'Merch' }" value="merch" @click="handleClick">Merch</button>
             <button class="btn" :class="{ 'highlight': visibleSection === 'Live' }" value="live" @click="handleClick">Live</button>
+            <button class="btn" :class="{ 'highlight': visibleSection === 'InMedia' }" value="inMedia" @click="handleClick">In Media</button>
             <button class="btn" :class="{ 'highlight': visibleSection === 'TheBand' }" value="theBand" @click="handleClick">The Band</button>
         </div>
         <Socials />

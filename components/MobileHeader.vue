@@ -56,6 +56,12 @@
 
                     <v-list-item>
                         <v-list-item-title>
+                            <button class="btn" :class="{ 'highlight': visibleSection === 'InMedia' }" value="inMedia" @click="handleClick">In Media</button>
+                        </v-list-item-title>
+                    </v-list-item>
+
+                    <v-list-item>
+                        <v-list-item-title>
                             <button class="btn" :class="{ 'highlight': visibleSection === 'TheBand' }" value="theBand" @click="handleClick">The Band</button>
                         </v-list-item-title>
                     </v-list-item>
@@ -94,6 +100,7 @@ export default {
                 'Story': 'Story',
                 'Merch': 'Merch',
                 'Live': 'Live',
+                'InMedia': 'In Media',
                 'TheBand': 'The Band',
             };
 

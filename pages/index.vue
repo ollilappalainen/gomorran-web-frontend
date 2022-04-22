@@ -13,6 +13,7 @@
                     <Story ref="story" />
                     <Merch ref="merch" />
                     <Live ref="live" />
+                    <InMedia ref="inMedia" />
                     <TheBand ref="theBand" />
                 </main>
                 <footer>
@@ -31,6 +32,7 @@ import Videos from '~/components/Videos';
 import Story from '~/components/Story';
 import Merch from '~/components/Merch';
 import Live from '~/components/Live';
+import InMedia from '~/components/InMedia';
 import TheBand from '~/components/TheBand';
 import Footer from '~/components/Footer';
 import vuescroll from 'vuescroll';
@@ -46,6 +48,7 @@ export default {
         Story,
         Merch,
         Live,
+        InMedia,
         TheBand,
         Footer,
         vuescroll,

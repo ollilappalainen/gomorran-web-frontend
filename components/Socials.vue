@@ -40,6 +40,11 @@ export default {
                     url: 'https://www.facebook.com/gomorranmetal',
                 },
                 {
+                    img: 'icons/tiktok-icon.png',
+                    alt: 'Tiktok link',
+                    url: 'https://www.tiktok.com/@gomorranmetal',
+                },
+                {
                     img: 'icons/bandcamp-icon.png',
                     alt: 'Bandcamp link',
                     url: 'https://gomorran.bandcamp.com/',
