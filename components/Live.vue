@@ -90,7 +90,7 @@ export default {
 
     h3 {
         margin-bottom: 2rem;
-        font-family: 'Maven Pro';
+        font-family: 'Maven Pro', sans-serif;
         border-bottom: 1px solid var(--white);
     }
 }
@@ -121,7 +121,7 @@ export default {
 }
 
 .event {
-    font-family: 'Maven Pro';
+    font-family: 'Maven Pro', sans-serif;
     display: flex;
     margin-bottom: 1rem;
     align-items: center;
@@ -130,20 +130,24 @@ export default {
 
     .date {
         color: var(--gold);
+        font-weight: 600;
+        text-transform: uppercase;
     }
 
     .location {
         color: var(--gold);
+        font-size: 14px;
     }
 
     .name {
         color: var(--white);
+        font-weight: 500;
     }
 }
 
 .link {
     text-decoration: none;
-    padding: .25rem .5rem;
+    padding: .5rem .75rem;
     color: var(--gold);
     white-space: nowrap;
     border: 1px solid var(--gold);
@@ -151,6 +155,8 @@ export default {
     justify-content: center;
     align-items: center;
     margin-left: 1rem;
+    font-weight: 500;
+    font-family: 'Maven Pro', sans-serif;
 
     &:hover {
         background-color: var(--gold);
@@ -179,13 +185,14 @@ export default {
 
     h3 {
         color: var(--white);
+        font-family: 'Maven Pro', sans-serif;
     }
 
     .mail-to {
         font-size: 1.5rem;
         color: var(--gold);
         text-decoration: none;
-        font-family: 'Old English Text MT';
+        font-family: 'Maven Pro', sans-serif;
     }
 }
 </style>
