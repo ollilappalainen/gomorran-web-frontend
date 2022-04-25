@@ -23,9 +23,11 @@
                 <h3>PAST</h3>
                 <ul class="events-list">
                     <li v-for="event in pastEvents" :key="event.id" class="event past">
-                        <span class="date">{{ getEventDate(event.start.date) }}</span>
-                        <span class="location">{{ event.location.city }}, {{ event.venue.displayName }}</span>
-                        <span class="name">{{ event.displayName }}</span>
+                        <div class="details">
+                            <span class="date">{{ getEventDate(event.start.date) }}</span>
+                            <span class="location">{{ event.location.city }}, {{ event.venue.displayName }}</span>
+                            <span class="name">{{ event.displayName }}</span>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -122,6 +124,9 @@ export default {
     font-family: 'Maven Pro';
     display: flex;
     margin-bottom: 1rem;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
 
     .date {
         color: var(--gold);
@@ -136,7 +141,10 @@ export default {
     }
 }
 
-.action {
+.link {
+    text-decoration: none;
+    padding: .25rem .5rem;
+    color: var(--gold);
     white-space: nowrap;
     border: 1px solid var(--gold);
     display: flex;
@@ -146,22 +154,16 @@ export default {
 
     &:hover {
         background-color: var(--gold);
-    }
-}
-
-.link {
-    text-decoration: none;
-    padding: .25rem .5rem;
-    color: var(--gold);
-
-    &:hover {
-        background-color: var(--gold);
         color: var(--black);
     }
+
+    @include tablet {
+        margin-left: 2rem;
+    }
 }
 
-.details,
-.past {
+.details {
+    display: flex;
     flex-direction: column;
 }
 
