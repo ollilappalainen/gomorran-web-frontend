@@ -51,7 +51,14 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxtjs/style-resources', '@nuxtjs/axios'],
+  modules: [
+    '@nuxtjs/style-resources',
+    '@nuxtjs/axios',
+    '@nuxtjs/gtm',
+  ],
+  gtm: {
+    id: 'G-ZS2VZ4E4KN'
+  },
   styleResources: {
     scss: [
         'assets/scss/mixins.scss',
