@@ -1,6 +1,7 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "GOMORRAN",
+    "short_name": "GOMORRAN",
+    "start_url": "https://www.gomorran.com/",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +14,8 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "display": "standalone"
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "display": "standalone",
+    "description": "Gomorran is a Finnish extreme metal band founded in Helsinki 2019. The band takes heavy influence from Scandinavian death metal and from the murkiness of black metal."
 }
