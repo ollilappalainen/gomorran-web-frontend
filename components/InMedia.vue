@@ -7,8 +7,8 @@
                     <img class="image" src="gomorran-band-live.jpg" alt="Gomorran band photo taken in an autumn forest" />
                 </div>
                 <div class="media-links">
-                    <a href="https://kaaoszine.fi/folkmetallijatti-finntroll-ja-ruotsalainen-wormwood-esiintyvat-heinakuussa-helsingissa/" rel="nofollow" target="_blank">Kaaoszine 6.6.2022 - Folkmetallijätti Finntroll ja ruotsalainen Wormwood esiintyvät heinäkuussa Helsingissä</a>
-                    <a href="https://kaaoszine.fi/viikinkimetallilegenda-thyrfing-saapuu-helsinkiin-keikalle-marraskuussa/" rel="nofollow" target="_blank">Viikinkimetallilegenda Thyrfing saapuu Helsinkiin keikalle marraskuussa</a>
+                    <a href="https://kaaoszine.fi/folkmetallijatti-finntroll-ja-ruotsalainen-wormwood-esiintyvat-heinakuussa-helsingissa/" rel="nofollow" target="_blank">Kaaoszine 6.6.2022 - Press release: Gomorran will open up for Finntroll and Wormwood</a>
+                    <a href="https://kaaoszine.fi/viikinkimetallilegenda-thyrfing-saapuu-helsinkiin-keikalle-marraskuussa/" rel="nofollow" target="_blank">Kaaoszine 3.5.2022 - Press release: Gomorran will open up for Thyrfing</a>
                     <a href="https://tuonelamagazine.com/gallery-17-3-2022-gomorran-astral-corpse-orbiter-hard-rock-house-helsinki/" rel="nofollow" target="_blank">Tuonela Magazine 17.3.2022 - GALLERY: Gomorran, Astral Corpse, & Orbiter @ Hard Rock House, Helsinki</a>
                     <a href="https://tuonelamagazine.com/17-3-2022-gomorran-astral-corpse-orbiter-hard-rock-house-helsinki/" rel="nofollow" target="_blank">Tuonela Magazine 17.3.2022 - Gomorran, Astral Corpse, & Orbiter @ Hard Rock House, Helsinki</a>
                     <a href="http://www.metal-temple.com/site/catalogues/entry/reviews/cd_3/g_2/gomorran-excerpts.htm" rel="nofollow" target="_blank">Metal Temple 23.2.2022 - Gomorran "Excerpts from the Dark Age" review</a>
