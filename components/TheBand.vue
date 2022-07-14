@@ -31,16 +31,22 @@ export default {
                     instrument: 'drums',
                 },
                 {
-                    img: 'portrait-perttu.jpg',
-                    alt: 'Portrait of Perttu Laamanen',
-                    name: 'Perttu Laamanen',
-                    instrument: 'vocals & guitar',
+                    img: 'portrait-julius.jpg',
+                    alt: 'Portrait of Julius Kantoluoto',
+                    name: 'Julius Kantoluoto',
+                    instrument: 'vocals',
                 },
                 {
                     img: 'portrait-joonatan.jpg',
                     alt: 'Portrait of Joonatan Wiitasalo',
                     name: 'Joonatan Wiitasalo',
-                    instrument: 'lead guitar',
+                    instrument: 'guitar',
+                },
+                {
+                    img: 'portrait-simo.jpg',
+                    alt: 'Portrait of Simo Happonen',
+                    name: 'Simo Happonen',
+                    instrument: 'guitar',
                 },
                 {
                     img: 'portrait-panu.jpg',
@@ -121,7 +127,7 @@ export default {
 
     @include large-tablet {
         .card {
-            flex-basis: 25%;
+            flex-basis: 20%;
         }
 
         h2 {

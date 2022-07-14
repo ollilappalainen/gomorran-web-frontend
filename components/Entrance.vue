@@ -1,10 +1,8 @@
 <template>
     <div id="entrance" ref="entrance" class="hero section">
-        <div class="logo-wrapper">
-            <img class="hero-image logo" src="gomorran-logo.svg" alt="Gomorran band logo" />
-        </div>
         <div class="main-image-wrapper">
-            <img class="hero-image" src="gomorran-band-photo-1.jpg" alt="Black and white Gomorran band photo" />
+            <img class="hero-image" src="gomorran-entrance.jpg" alt="Gomorran logo and band on stage" />
+            <img class="hero-image mobile" src="gomorran-entrance-mbl.jpg" alt="Gomorran logo and band on stage" />
         </div>
     </div>
 </template>
@@ -41,49 +39,29 @@ export default {
     margin-left: -2rem;
     margin-right: -2rem;
     flex: 1;
-    animation:slide 20s infinite linear;
     overflow: hidden;
 
     @include desktop {
         max-width: 100vw;
         margin-left: -8rem;
         margin-right: -8rem;
-        animation: none;
     }
 }
 
 .hero-image {
+    display: none;
+    max-width: 100%;
+
     @include desktop {
-        max-width: 100%;
+        display: flex;
     }
 }
 
-@keyframes slide{
-    0% {
-        transform: translateX(0);
-    }
+.mobile {
+    display: flex;
 
-    33% {
-        transform: translateX(calc(-50% + 70vw));
-    }
-
-    66% {
-        transform: translateX(calc(50% - 70vw));
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
-
-.logo {
-    width: 100%;
-    max-width: 100vw;
-    margin-bottom: 2rem;
-
-    @include tablet {
-        padding: 0 4rem;
-        max-width: 80vw;
+    @include desktop {
+        display: none;
     }
 }
 </style>

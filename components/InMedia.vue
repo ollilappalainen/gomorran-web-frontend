@@ -4,9 +4,10 @@
             <div class="in-media-text">
                 <h2>Gomorran media appearances</h2>
                 <div class="image-wrapper">
-                    <img class="image" src="gomorran-band-live.jpg" alt="Gomorran band photo taken in an autumn forest" />
+                    <img class="image" src="gomorran-band-live.jpg" alt="Gomorran band photo on stage" />
                 </div>
                 <div class="media-links">
+                    <a href="https://kaaoszine.fi/gomorran-vetten-aparat-wormwood-ja-finntroll-tarjosivat-viihdetta-metallimusiikin-ystaville-katso-kuvat-aaniwallin-keikoilta/" rel="nofollow" target="_blank">Kaaoszine 13.7.2022 - GALLERY: Gomorran, Vetten Äpärät, Wormwood(SWE), Finntroll @ Ääniwalli, Helsinki</a>
                     <a href="https://kaaoszine.fi/folkmetallijatti-finntroll-ja-ruotsalainen-wormwood-esiintyvat-heinakuussa-helsingissa/" rel="nofollow" target="_blank">Kaaoszine 6.6.2022 - Press release: Gomorran will open up for Finntroll and Wormwood</a>
                     <a href="https://kaaoszine.fi/viikinkimetallilegenda-thyrfing-saapuu-helsinkiin-keikalle-marraskuussa/" rel="nofollow" target="_blank">Kaaoszine 3.5.2022 - Press release: Gomorran will open up for Thyrfing</a>
                     <a href="https://tuonelamagazine.com/gallery-17-3-2022-gomorran-astral-corpse-orbiter-hard-rock-house-helsinki/" rel="nofollow" target="_blank">Tuonela Magazine 17.3.2022 - GALLERY: Gomorran, Astral Corpse, & Orbiter @ Hard Rock House, Helsinki</a>

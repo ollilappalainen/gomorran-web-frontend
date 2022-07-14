@@ -72,7 +72,7 @@ export default {
 }
 
 img {
-    max-width: 2.5rem;
+    max-width: 2rem;
     width: 100%;
 }
 </style>

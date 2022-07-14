@@ -68,8 +68,7 @@ export default {
         background-color: var(--black);
         border: 0;
         color: var(--white);
-        padding: 1rem 0.5rem;
-        margin: 0 1rem;
+        padding: 1rem .5rem;
         font-family: 'Old English Text MT';
         font-size: 1.5rem;
         height: auto;
@@ -80,11 +79,6 @@ export default {
         &:hover {
             color: var(--gold);
             transform: scale(1.2, 1.2);
-        }
-
-        @include large-desktop {
-            padding: 1rem 2rem;
-            font-size: 2rem;
         }
     }
 
